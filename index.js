@@ -1,11 +1,22 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const wordArray = word.split('');
+  const reversedArray = wordArray.reverse();
+  let drow = reversedArray.join('');
+  if (word === drow) {
+    return true;
+  }else {return false;}
 }
 
 /* 
   Add your pseudocode here
 */
-
+// if (word === makeBackwards(word){
+  //   return true;
+//}else {return false}
+//makeBackwards(word){
+  
+//}
 /*
   Add written explanation of your solution here
 */
